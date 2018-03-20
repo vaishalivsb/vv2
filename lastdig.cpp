@@ -3,14 +3,14 @@ using namespace std;
 #include<math.h>
 #include<string.h>
 int main() 
-{int c,k,i;
-char a[40];
+{int c,k,i,f;
+char a[40],b[40],d[40];
 cin>>a>>k;
-c=strlen(a);
-while(k<=c)
+d=strrev(a);
+f=strlen(d);
+for(i=k;i>0;i--)
 {
-cout<<a[k];
-k++;
+cout<<a[i];
 }
 return 0;
 }
